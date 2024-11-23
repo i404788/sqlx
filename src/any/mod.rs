@@ -7,7 +7,8 @@ pub use sqlx_core::any::driver::install_drivers;
 
 pub use sqlx_core::any::{
     Any, AnyArguments, AnyConnectOptions, AnyExecutor, AnyPoolOptions, AnyQueryResult, AnyRow,
-    AnyStatement, AnyTransactionManager, AnyTypeInfo, AnyTypeInfoKind, AnyValue, AnyValueRef,
+    AnyStatement, AnyTransactionManager, AnyTypeInfo, AnyTypeInfoKind, AnyValue, AnyValueRef, 
+    AnyValueKind,
 };
 
 #[allow(deprecated)]
