@@ -41,11 +41,9 @@ pub use row::AnyRow;
 pub use statement::AnyStatement;
 pub use transaction::AnyTransactionManager;
 pub use type_info::{AnyTypeInfo, AnyTypeInfoKind};
-pub use value::{AnyValue, AnyValueRef};
+pub use value::{AnyValue, AnyValueRef, AnyValueKind};
 
 use crate::types::Type;
-#[doc(hidden)]
-pub use value::AnyValueKind;
 
 pub type AnyPool = crate::pool::Pool<Any>;
 
